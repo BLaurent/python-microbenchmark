@@ -1,0 +1,15 @@
+---
+applications:
+- name: python-microbenchmark
+  random-route: false
+  command: gunicorn -k gevent -w 8 -b :8080 "server:create_app()"
+  timeout: 160
+  memory: 512M
+  disk_quota: 512M
+  instances: 2
+  buildpacks:
+    - https://github.com/cloudfoundry/python-buildpack.git#v1.6.21
+  routes:
+    - route: python-microbenchmark.run.aws-usw02-pr.ice.predix.io
+  services:
+    - blobstore-test

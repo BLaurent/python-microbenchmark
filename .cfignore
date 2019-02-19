@@ -1,0 +1,11 @@
+tags
+requirements.txt
+sonar-project.properties
+vcap.json
+Jenkinsfile
+black.toml
+.idea
+Readme.md
+.flake8
+.pre-commit-config.yaml
+.vscode

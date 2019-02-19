@@ -1,0 +1,4 @@
+POST https://python-microbenchmark.run.<pop>.ice.predix.io/
+Authorization: Bearer <token>
+Content-Type: multipart/form-data; boundary=vegetaboundary
+@body_post.txt

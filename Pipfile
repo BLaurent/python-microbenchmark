@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+jedi = "*"
+python-language-server = "*"
+black = "*"
+pre-commit = "*"
+
+[packages]
+boto3 = "*"
+flask = "*"
+flask-restful = "*"
+werkzeug = "*"
+flask-script = "*"
+gunicorn = "*"
+gevent = "*"
+
+[requires]
+python_version = "3.6"
+
+[pipenv]
+allow_prereleases = true

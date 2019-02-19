@@ -1,0 +1,13 @@
+--vegetaboundary
+Content-Disposition: form-data; name="files[]"; filename="demo-file1.txt"
+Content-Type: text/octet-stream
+
+12fds,fgniudsglasljghwgjwdkbng;dfsakngoiwdjg;oewht0uepfasdhg'wjtoeiwl;aew.nds;hj
+
+--vegetaboundary
+Content-Disposition: form-data; name="files[]"; filename="demo-file2.txt"
+Content-Type: text/octet-stream
+
+12fds,fgniudsglasljghwgjwdkbng;dfsakngoiwdjg;oewht0uepfasdhg'wjtoeiwl;aew.nds;hj
+
+--vegetaboundary--
