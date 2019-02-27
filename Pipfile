@@ -10,6 +10,7 @@ python-language-server = "*"
 black = "*"
 pre-commit = "*"
 coverage = "*"
+pytest = "*"
 
 [packages]
 boto3 = "*"
