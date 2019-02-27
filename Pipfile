@@ -9,6 +9,7 @@ jedi = "*"
 python-language-server = "*"
 black = "*"
 pre-commit = "*"
+coverage = "*"
 
 [packages]
 boto3 = "*"
