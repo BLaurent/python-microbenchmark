@@ -12,4 +12,5 @@ exclude = '''
   | buck-out
   | build
   | dist
+  | src/predix/*
 )/

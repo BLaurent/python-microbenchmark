@@ -9,5 +9,5 @@ pythonPipeline {
     cfOrg = 'European_Foundry_Basic'
     cfSpace = 'machine'
     promotionRepository = ''
-    pythonVersion = '3.7'
+    pythonVersion = '3.6'
 }
