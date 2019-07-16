@@ -8,7 +8,7 @@ applications:
   disk_quota: 512M
   instances: 2
   buildpacks:
-    - https://github.com/cloudfoundry/python-buildpack.git#v1.6.21
+    - https://github.com/cloudfoundry/python-buildpack.git#v1.6.34
   routes:
     - route: python-microbenchmark.run.aws-usw02-pr.ice.predix.io
   services:
